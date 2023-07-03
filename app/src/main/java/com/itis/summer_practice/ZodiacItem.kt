@@ -1,10 +1,11 @@
-package com.itis.practice
+package com.itis.summerpractice2
 
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.bumptech.glide.RequestManager
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
-import com.project.summer_practice.databinding.ItemZodiacBinding
+import com.itis.summerpractice2.databinding.ItemZodiacBinding
+
 
 class ZodiacItem(
     private val binding: ItemZodiacBinding,
@@ -23,7 +24,7 @@ class ZodiacItem(
                 .apply(options)
                 .into(ivImage)
 
-            root.setOnCheckedChangeListener{
+            root.setOnClickListener{
                 onItemClick(zodiac)
             }
         }

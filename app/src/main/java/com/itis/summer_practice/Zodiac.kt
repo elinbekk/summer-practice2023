@@ -1,5 +1,4 @@
-package com.itis.practice
-
+package com.itis.summerpractice2
 data class Zodiac(
     val id: Int,
     val name:String,

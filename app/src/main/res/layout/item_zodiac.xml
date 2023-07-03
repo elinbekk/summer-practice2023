@@ -44,11 +44,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/divider"
-            tools:text="Aries" />
+            tools:text="  Aries" />
 
         <TextView
             android:id="@+id/tv_desc"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
             android:textSize="16sp"

@@ -1,10 +1,11 @@
-package com.itis.practice
+package com.itis.summerpractice2
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.RequestManager
-import com.project.summer_practice.databinding.ItemZodiacBinding
+import com.itis.summerpractice2.databinding.ItemZodiacBinding
+
 
 class ZodiacAdapter(private var list: List<Zodiac>,
                     private val glide: RequestManager,
